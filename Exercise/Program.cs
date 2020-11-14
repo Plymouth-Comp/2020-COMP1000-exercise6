@@ -12,8 +12,17 @@ namespace Exercise
             // add a new pair to the dictionary with key="mult" as key the product of all remaining values
             // add a new pair to the dictionary with key="div" as key the division of all remaining values
             // round the appropriate values to 10 decimal places
+            // return the updated dictionary
            
             return null;
+        }
+
+        public void RetrieveCalValues(Dictionary<string, double> data, string clear)
+        {
+            // remove from the dictionary all pairs where the key contains the substring <clear>
+            // add a new pair to the dictionary with key="sum" as key the summation of all remaining values
+            // add a new pair to the dictionary with key="mult" as key the product of all remaining values
+            // round the appropriate values to 10 decimal places
         }
 
         static void Main(string[] args)
