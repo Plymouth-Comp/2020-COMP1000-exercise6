@@ -6,3 +6,4 @@ To update to the current tests you will need to execute the `update.bat` file
 Additionally, to checkout the project you will need to run `git clone --recursive <repo>`
 
 If not specifically stated you are not allowed to use further advanced libraries. This includes the usage of LINQ.
+You are only supposed to use loops (for, foreach, while) and conditional statements (if,switch) as well as simple arrays, lists.
